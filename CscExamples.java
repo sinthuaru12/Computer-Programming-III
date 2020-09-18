@@ -34,18 +34,18 @@ class CscExamples
 		
 	}
 	
-	public void addQuestion(CscExamples qu)
+	public CscExamples addQuestion(CscExamples qu)
 	{
-		
+		return qu;
 	}
 	
-	public void removwQuestion(int quId)
+	public void removeQuestion(int quId)
 	{
-		
+		questionNo=quId;
 	}
 	
 	public void editQuestion(int quId)
 	{
-		
+		questionNo=quId
 	}
 }
